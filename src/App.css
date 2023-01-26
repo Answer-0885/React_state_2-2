@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 56px; 
+}

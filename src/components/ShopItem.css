@@ -1,0 +1,43 @@
+.stylesItem {
+    flex: 1 1 auto;
+    background-color: whitesmoke;
+    box-shadow: .2rem .4rem .8rem lightgrey;
+    margin: .3rem 0;
+    padding: .5rem 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.btnItem {
+    color: red;
+    border: .1rem solid red;
+    height: 2em;
+    line-height: 1.9em;
+    width: 7.5em;
+    text-align: center;
+    border-radius: 1em;
+  }
+
+.imgItem {
+    height: 5rem;
+    width: auto;
+    margin: .5rem 0; 
+  }
+
+.nameItem{
+    font-size: 1.5em;
+    flex-basis: 30%;
+}
+
+.colorItem{
+    font-size: 1.5em;
+    flex-basis: 20%;
+}
+
+.priceItem{
+    color: red;
+    font-size: 1.5em;
+    flex-basis: 20%;
+}

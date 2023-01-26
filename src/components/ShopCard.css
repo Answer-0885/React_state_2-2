@@ -1,0 +1,45 @@
+.stylesCard {
+    background-color: whitesmoke;
+    box-shadow: .3rem .6rem .8rem lightgrey;
+    margin: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+.cardPrice  {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.btnCard {
+    color: red;
+    border: .1rem solid red;
+    height: 2em;
+    line-height: 1.9em;
+    width: 7.5em;
+    text-align: center;
+    border-radius: 1em;
+  }
+
+ .priceCard {
+    color: red;
+    font-size: 1.5em; 
+}
+
+.imgCard {
+    height: 300px;
+    width: 300px; 
+}
+
+.colorCard {
+    font-size: 1em;
+}
+
+.nameCard {
+    font-size: 2em;
+}
