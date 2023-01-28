@@ -11,7 +11,7 @@ const styles = {
 function ListView(props) {
   return (
     <div style={styles}>
-      {props.items.map((o) => <ShopItem data={o} key={uuidv4()}/>)}
+      {props.items.map((item) => <ShopItem data={item} key={uuidv4()}/>)}
     </div>
   )
 }
