@@ -33,7 +33,7 @@ export class Store extends Component {
           flexFlow: 'column nowrap',
         }}
       >
-        <div style={{textAlign: 'right', margin: '.7em 1em 0 0'}}>
+        <div style={{textAlign: 'right', margin: '1em 1em'}}>
           <IconSwitch
             icon={this.state.layout}
             onSwitch={this.switchLayout}
